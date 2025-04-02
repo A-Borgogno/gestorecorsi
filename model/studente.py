@@ -3,7 +3,7 @@ from dataclasses import dataclass
 
 @dataclass
 class Studente:
-    matricola: int
+    matricola: str
     cognome: str
     nome: str
     CDS: str
